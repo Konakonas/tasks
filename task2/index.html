@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="main">
+    <img class="menu" src="assets/menu.jpg" alt="">
+    <div>
+        <button class="accordion"><img src="assets/sale.png" alt="">Акции</button>
+        <button class="info">
+            <img src="assets/Векторный%20смарт-объект.png" alt="">
+        </button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus deserunt dolore eos illo iure minus quisquam sed ut? Alias consectetur corporis eos minima nihil nobis recusandae sed. Ad amet, commodi debitis delectus deleniti dignissimos dolore, earum enim et laboriosam magni, maxime molestiae mollitia nisi nulla numquam perferendis quia recusandae ut voluptas! Aut autem consectetur doloribus ea et illo minima minus nesciunt nisi omnis optio quod reprehenderit repudiandae, sapiente vel. Accusamus ad aperiam autem culpa debitis delectus dolorum ducimus eligendi eos et facilis impedit iure labore, laborum nemo nisi nostrum pariatur quae quasi qui quo quos ratione repellendus, temporibus, ullam voluptate.</p>
+        </div>
+    </div>
+    <div>
+        <button class="accordion"><img src="assets/size.png" alt="">По размеру</button>
+        <div class="info">
+            <img src="assets/Векторный%20смарт-объект.png" alt="">
+        </div>
+        <div class="panel">
+            <div class="panel-size">
+                <div class="slider-container">
+                    <span id="slider-text-one">Плитки</span>
+                    <div class="slider">
+                        <div class="switch">
+                            <label onclick="checkTog()"><i id="tog" class="on" onclick="checkTog()"></i></label>
+                        </div>
+                    </div>
+                    <span id="slider-text-two">Проема</span>
+                </div>
+                <hr class="">
+                <div class="size-container">
+                    <div class="column-one">
+                            <span class="text">Ширина (мм)</span><br />
+                            <input class="size-input" type="text" placeholder="от 150 до 2000"><br />
+
+                            <span class="text">Высота (мм)</span><br />
+                            <input class="size-input" type="text" placeholder="от 150 до 2000"><br />
+                    </div>
+                    <div class="column-two">
+                            <span class="text">Количество плиток:</span><br />
+                            <div class="button-container">
+                                <div class="button  plus" onclick="plusOne(1)">+</div>
+                                <div class="count-one buttons">1</div>
+                                <div class="button minus" onclick="minusOne(1)">-</div>
+                            </div><br />
+                            <span class="text">Количество плиток:</span><br />
+                            <div class="button-container">
+                                <div class="button plus" onclick="plusOne(2)">+</div>
+                                <div class="count-two buttons">1</div>
+                                <div class="button minus" onclick="minusOne(2)">-</div>
+                            </div><br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button class="accordion"><img src="assets/sale.png" alt="">Акции</button>
+        <div class="info">
+            <img src="assets/Векторный%20смарт-объект.png" alt="">
+        </div>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus deserunt dolore eos illo iure minus quisquam sed ut? Alias consectetur corporis eos minima nihil nobis recusandae sed. Ad amet, commodi debitis delectus deleniti dignissimos dolore, earum enim et laboriosam magni, maxime molestiae mollitia nisi nulla numquam perferendis quia recusandae ut voluptas! Aut autem consectetur doloribus ea et illo minima minus nesciunt nisi omnis optio quod reprehenderit repudiandae, sapiente vel. Accusamus ad aperiam autem culpa debitis delectus dolorum ducimus eligendi eos et facilis impedit iure labore, laborum nemo nisi nostrum pariatur quae quasi qui quo quos ratione repellendus, temporibus, ullam voluptate.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
