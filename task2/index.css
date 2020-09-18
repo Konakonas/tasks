@@ -90,6 +90,7 @@
     box-shadow: 0 0 3px rgba(0,0,0,0.5);
     padding: 10px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 .size-container {
     width: 100%;
@@ -138,6 +139,8 @@
     position: relative;
 }
 .button {
+    position: absolute;
+
     width: 25px;
     height: 25px;
     text-align: center;
@@ -147,16 +150,42 @@
     justify-content: center;
 }
 .buttons {
+    position: relative;
+    left: 50%;
     width: 40px;
     height: 40px;
     text-align: center;
     align-items: center;
     box-shadow: 0 0 3px rgba(0,0,0,0.5);
     display: inline-block;
+    border-radius: 10px;
 }
 .column-two, .column-one {
     margin-left: 10px;
     float: left;
+}
+.plus {
+    font-size: 40px;
+    left: 20%;
+    top: 10%;
+    margin-right: 20px;
+}
+.minus {
+    font-size: 40px;
+    left: 70%;
+    top: 8%;
+    margin-left: 20px;
+}
+.number {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    justify-content: center;
+}
+.count-one, .count-two {
+    font-size: 33px;
+    color: darkgrey;
+    margin-top: 10px;
 }
 
 
